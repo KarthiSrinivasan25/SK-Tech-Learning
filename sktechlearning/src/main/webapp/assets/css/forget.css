@@ -1,0 +1,78 @@
+@charset "UTF-8";
+
+/* Example styles, adjust as needed */
+
+body{
+	margin: 0;
+	padding: 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	font-family: 'Jost', sans-serif;
+	 background: linear-gradient(to bottom, #0f3c29, #306363, #24443e);
+}
+
+
+.forget-password-container, .verify-otp, .reset-password, .success-container, .error-container {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 300px;
+}
+
+.forget-password-container label,
+.verify-otp-container label,
+.reset-password label,
+.success-container h2,
+.error-container h2 {
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.forget-password-container input,
+.verify-otp input,
+.reset-password input {
+    width: 90%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.forget-password-container button,
+.verify-otp button,
+.reset-password button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+    font-family: 'Jost', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+}
+
+.forget-password-container button:hover,
+.verify-otp button:hover,
+.reset-password button:hover {
+    background-color: #0056b3;
+}
+
+.success-container a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+.success-container a:hover {
+    text-decoration: underline;
+}
+
+.error-container {
+    color: red;
+}
